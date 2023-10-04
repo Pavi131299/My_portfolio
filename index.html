@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/port.css">
+    <script src="https://kit.fontawesome.com/e93df2b604.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <script src="./JS/buttons.js"></script>
+  </head>
+  <body>
+    
+    <header>
+      <div class="menus" id="menuBar">
+        <a href="javascript:void(0);"  onclick="menulist()">
+          <i class="fa-solid fa-bars" style="color: #fefefe ;"></i></a>
+      </div>
+     
+      <div id="showMenu" class="preference">
+        <p style="font-weight: bold;">PAVI</p>
+        <div class="spacer" > </div>
+        <div class="closelist" id="menuClose">
+          <a href="javascript:void(0);"  onclick="closeMenu()">
+            <i class="fa-solid fa-xmark" ></i></a>
+        </div>
+            <li><a href="#home"> Home </a></li>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#showSkill"> Skills </a></li>
+            <li><a href="#projects"> Projects </a></li>
+            <li><a href="#cont"> Contact </a></li>
+      </div>
+       
+    </header>
+    <main id="home">
+        <div class="container">
+            <img src="./images/office.jpg" alt="img">
+               <div class="home">
+                    <h4>I AM <span>PAVITHRA</span>
+                        FULL STACK DEVELOPER
+                    </h4> 
+                  <div class="tag">
+                    <a href=""><i class="fa-brands fa-facebook" ></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href=""><i class="fa-brands fa-github" ></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp" ></i></a>
+                  </div>  
+                </div>
+        </div>
+        <!-- about -->
+        <section class="about-container" >
+          <div class="mypic" id="about">
+              <img src="./images/paviii.jpg" alt="">
+          </div>
+          <div class="intro">
+              <h1 style="color:#395B64;">ABOUT ME!</h1>
+              <div class="line"></div>
+              <p>
+                My objective is simply to be the best web developer that I can be and to contribute
+                to the technology industry all that I know and can do.
+                I am dedicated to perfecting my craft by learning from more seasoned developers,
+                remaining humble, and continuously making strides to
+                learn all that I can about development. <br>
+                Seeking a challenging Full Stack Developer role to leverage my 
+                                expertise in both front-end and back-end technologies.Eager to continuously expand my skillset and stay
+                                at the forefront of emerging technologies in the ever-evolving 
+                             field of web development. 
+              </p>
+              <br>
+              <div class="buttons">
+                <button onclick="" style="color: aliceblue;">DOWNLOAD</button>
+                 <button><a href="#cont" style="color: rgb(255, 255, 255);">HIRE ME</a></button>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skill-container" id="showSkill">
+          <div class="btn">
+            <button onclick="skillFun()">SKILL</button>
+            <button onclick="toolKit()" id="tool">TOOLKIT</button>
+            <button onclick="dbFun()" id="db">BACK-END</button>
+          </div>
+          <div class="box1" id="ski">
+             <div class="firstbox">
+              <li><img src="./images/html-5-.svg" alt="img"></li>
+              <li><img src="./images/css-3.svg" alt="img"></li>
+              <li><img src="./images/java.svg" alt="img"></li>
+              <li><img src="./images/javascript.svg" alt="img"></li>
+             </div>
+          </div>
+          <div class="box2" id="tools">
+            <div class="secondbox">
+              <li><img src="./images/visualstudio-svgrepo-com.svg" alt=""></li>
+              <li><img src="./images/netbeans-svgrepo-com.svg" alt=""></li>
+            </div>
+          </div>
+          <div class="box3" id="dbkit">
+            <div class="thirdbox">
+              <li><img src="./images/database.svg" alt=""></li>
+              <li><img src="./images/node-svgrepo-com.svg" alt=""></li>
+            </div>
+          </div>
+        </section>
+        <!-- projects -->
+        <section class="project-container" id="projects">
+          <div class="grid-container">
+            <div class="project-title">
+              <h1>PROJECTS</h1>
+            </div>
+            <div class="proj">
+              <h4>Online cooking recipes app</h4>
+                <p>Environment</p>
+                <ul>
+                  <li><img src="./images/java.svg" alt="img"></li>
+                  <li><img src="./images/xml-document-svgrepo-com.svg" alt="img"></li>
+                </ul>
+            <hr>
+              </div>
+            <div class="proj">
+              <h4>Inventory Management</h4>
+                  <p>Environment</p>
+                  <ul>
+                    <li><img src="./images/html-5-.svg" alt="img"></li>
+                    <li><img src="./images/css-3.svg" alt="img"></li>
+                    <li><img src="./images/php2-svgrepo-com.svg" alt="img"></li>
+                    <li><img src="./images/java.svg" alt="img"></li>
+                  </ul>
+                  <hr>
+                </div>
+               <div class="proj">
+              <h4>Placement Forum</h4>
+              <p>Environment</p>
+              <ul>
+                <li><img src="./images/html-5-.svg" alt="img"></li>
+                <li><img src="./images/css-3.svg" alt="img"></li>
+                <li><img src="./images/javascript.svg" alt="img"></li>
+              </ul>
+              <hr>
+            </div>
+            <div class="proj">
+              <h4>Number system conversion</h4>
+                <p>Environment</p>
+                <ul>
+                  <li><img src="./images/java.svg" alt="img"></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="proj">
+              <h4>Path Detector and Digital Thermometer</h4>
+                <p>Environment</p>
+                <ul>
+                  <li><img src="./images/arduino-svgrepo-com.svg" alt="img"></li>
+                </ul>
+                <hr>
+            </div>
+          </div>
+        </section>
+        <!-- contact -->
+        <section class="contact-container" id="cont">
+          <h4>CONTACT ME!</h4>
+        <div class="refer">
+           <div class="formClass">
+             <form method="post" onsubmit="return formDetails()" novalidate>
+              <label for=""></label>
+               <input type="text" name="callby" id="nameTag" placeholder="NAME" required>
+                 <p id="nameReq"></p>
+              <label for=""></label>
+              <input type="email" name="mail" id="mailTag" placeholder="E-MAIL" required> <br>
+              <p id="mailReq"></p>
+              <label for=""></label>
+              <textarea name="textMe" id="msgTag" cols="60" rows="10" placeholder="MESSAGE" required></textarea> <br>
+              <p id="msgReq"></p>
+              <div class="submitBtn">
+                <button id="sendbut" type="submit" onclick="">Send</button>
+              </div>
+             </form>
+           </div>
+           <div class="knowMore">
+            <!-- <p>MAIL</p> <br> -->
+             <section class="Address">  
+              <i class="fa-solid fa-map-marker"></i>
+              <h1>Address</h1>
+              <p>TamilNadu,India</p>
+             </section>
+             <section class="mailTo">  
+              <i class="fa-solid fa-envelope"></i>
+              <h1>Email</h1>
+              <p><a href="mailto:pavithraparaman99@gmail.com" style="color: rgb(254, 249, 249);">pavithraparaman99@gmail.com</a> </p>
+             </section>
+             <section class="callMe">
+              <i class="fa-solid fa-phone"></i>
+              <h1>Phone</h1>
+              <p> 
+                <a href="tel:+919655913993" style="color: rgb(248, 248, 248);">+919655913993</a></p>
+             </section>
+          </div>
+        </div>
+        </section>
+      </main> 
+     <footer>
+       <div class="foot">
+        <p>Designed by:  P.Pavithra</p>
+       </div>    
+     </footer>
+     <script src="./JS/buttons.js"></script>
+    </body>
+</html>
